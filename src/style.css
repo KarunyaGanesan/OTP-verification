@@ -1,0 +1,38 @@
+
+
+
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:red;
+    background-repeat: no-repeat;
+  }
+  
+  .otp-container {
+    box-sizing: border-box;
+    padding: 30px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  @media (max-width: 768px) {
+    .otp-container {
+      padding: 20px;
+      max-width: 300px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .otp-container {
+      padding: 10px;
+      max-width: 100%;
+    }
+  }
+  
+
+  
